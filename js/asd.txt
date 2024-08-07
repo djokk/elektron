@@ -1,0 +1,34 @@
+booking::
+POST https://api.elektron-navbat.uz/history
+
+{
+  'OrgName' => $OrgName,
+  'BranchId' => $BranchId,
+  'Branch' => $Branch,
+  'Adress' => $Adress,
+  'ServiceId' => $ServiceId,
+  'Service' => $Service,
+  'Phone' => $Phone,
+  'Type' => $Type,
+  'BookingDate' => $BookingDate,
+  'BookingTime' => $BookingTime,
+  'BookingId' => $BookingId,
+  'BookingCode' => $BookingCode
+}
+
+
+eTicket::
+POST https://api.elektron-navbat.uz/history
+
+{
+  'OrgName' => $OrgName,
+  'BranchId' => $BranchId,
+  'Branch' => $Branch,
+  'Adress' => $Adress,
+  'ServiceId' => $ServiceId,
+  'Service' => $Service,
+  'Phone' => $Phone,
+  'Type' => $Type,
+  'Ticket' => $Ticket,
+  'TicketId' => $TicketId
+}
